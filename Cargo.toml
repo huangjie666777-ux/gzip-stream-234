@@ -1,0 +1,9 @@
+[package]
+name = "gzip_stream234"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+
+[dependencies]
+flate2 = { version = "=1.1.2", default-features = false, features = ["rust_backend"] }
+crc32fast = "=1.4.2"
